@@ -1,0 +1,3 @@
+rootProject.name = "VipTime"
+include ':app'
+include ':vip_time'
