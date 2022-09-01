@@ -1,5 +1,5 @@
 # VipTime
-中文文档
+[English documents](README_EN.md)
 VipTime是一个Android端的定时和延时功能，通过寥寥几行代码便可轻松实现一个定时任务，或者一个延时任务，告别传统约束，必须值得拥有！
 
 ## 快速开始
@@ -54,6 +54,17 @@ setInterval(10, 2) {
       val t = it.toString()//定时 时间值
    }
 ```
+
+##Demo效果预览
+
+<img src="image/time.png" width="32%" />
+
+## 欢迎关注作者
+
+微信扫描关注，查阅更多技术文章！
+
+<img src="image/abner.jpg" width="200px" />
+
 ## License
 
 ```
