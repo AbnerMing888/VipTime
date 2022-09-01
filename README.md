@@ -1,19 +1,25 @@
 # VipTime
 中文文档
 VipTime是一个Android端的定时和延时功能，通过寥寥几行代码便可轻松实现一个定时任务，或者一个延时任务，告别传统约束，必须值得拥有！
-快速开始
+
+## 快速开始
+
 1、在你的跟项目下的build.gradle文件下，引入maven。
+
+```groovy
 allprojects {
     repositories {
         maven { url "https://gitee.com/AbnerAndroid/almighty/raw/master" }
     }
 }
+```
 2、在你需要使用的Module中build.gradle文件下，引入依赖。
+```groovy
 dependencies {
     implementation 'com.vip:time:1.0.0'
 }
-
-基本用法
+```
+## 基本用法
 
 1、倒计时（延时），参数为需要倒计时的时间，Long类型。
 ```kotlin
