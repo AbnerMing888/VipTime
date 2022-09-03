@@ -5,7 +5,7 @@ VipTime是一个Android端的定时和延时功能，通过寥寥几行代码便
 
 ## 快速开始
 
-1、在你的跟项目下的build.gradle文件下，引入maven。
+1、在你的根项目下的build.gradle文件下，引入maven。
 
 ```groovy
 allprojects {
